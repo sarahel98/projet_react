@@ -3,7 +3,7 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { favorisTab } from "./Favoris";
 
 const Cards = (apiData) => {
-
+ // Fonction qui permet d'ajouter la météo de la ville sur la page de favoris et d'ajouter son id dans le local storage 
   const handleAddFav = (data) => {
     const newFav = {
       id: data.id,

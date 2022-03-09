@@ -11,7 +11,7 @@ const Favoris = () => {
 
 
   return (
-
+//recuperation des objets stockés dans favorisTab et affichage sur la page Favoris 
     <div >
       {favorisTab.map((fav, i) => (
         <div key={fav._id} >
@@ -45,11 +45,9 @@ const Favoris = () => {
                             alt="weather status icon"
                             className="ml-0"
                           />
-
                           <p className="h2">
                             {kelvinToFarenheit(fav.temp)}&deg; C
               </p>
-
                           <p className="h5">
                             <i className="fas fa-map-marker-alt"></i>{' '}
                             <strong>{fav.name}</strong>
