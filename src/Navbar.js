@@ -7,9 +7,9 @@ return(
 <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 bg-orange-50">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
   <Link to={"/Home"} className="text-decoration-none">
-    <a class="flex items-center">
+    <p class="flex items-center">
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">React Weather app </span>
-    </a>
+    </p>
     </Link>
     <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
@@ -20,14 +20,15 @@ return(
       <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
       <Link to={"/Home"} className="text-decoration-none">
         <li>
-          <a class="block py-2 pr-4 pl-3 hover:text-orange-700 rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
+          <p class="block py-2 pr-4 pl-3 hover:text-orange-700 rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</p>
         </li>
         </Link>
         <Link to={"/Favoris"} className="text-decoration-none">
         <li>
-          <a  class="block py-2 pr-4 pl-3 hover:text-orange-700 rounded md:bg-transparent  md:p-0 dark:text-white">Favoris</a>
+          <p class="block py-2 pr-4 pl-3 hover:text-orange-700 rounded md:bg-transparent  md:p-0 dark:text-white">Favoris</p>
         </li>
         </Link>
+    
       </ul>
     </div>
   </div>
