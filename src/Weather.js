@@ -28,14 +28,10 @@ const Weather = () => {
     setState(getState);
   };
 
-
-
-
   return (
-     
-    <div className="text-center" > 
-         <Navbar />
-     
+
+    <div className="text-center" >
+      <Navbar />
       <div className="container">
         <div >
           <div className=" ml-6">
@@ -56,10 +52,8 @@ const Weather = () => {
             Search
           </button>
         </div>
-            
-        <Cards apiData={apiData}/>
-
-    </div>
+        <Cards apiData={apiData} />
+      </div>
     </div>
   );
 }
